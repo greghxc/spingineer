@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+.result {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+body { 
+  background: url('2.gif') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p.engineer {
+  font-size: 30px;
+  font-size: 25vw;
+  color: white;
+  font-family: 'Share Tech Mono';
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
