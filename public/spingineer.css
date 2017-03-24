@@ -16,8 +16,8 @@ body {
 }
 
 p.engineer {
-  font-size: 30px;
-  font-size: 25vw;
+  font-size: 10px;
+  font-size: 10vw;
   color: white;
   font-family: 'Share Tech Mono';
   text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
