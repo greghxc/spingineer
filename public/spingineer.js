@@ -11,7 +11,7 @@ function spinWheel(duration, max, choices, next) {
     $("#result").html("<p class=\"engineer\">" + choice + "<p>");
     choices.push(choice);
     setTimeout(function(){
-      spinWheel(duration * 1.1, max, choices, next)
+      spinWheel(duration * 1.3, max, choices, next)
     }, duration);
   } else {
     console.log(next);
@@ -51,7 +51,7 @@ function spin(engineers) {
   console.log("spinning: " + shuffledEngineers);
   makeBackground('1.gif');
   $('#result').empty();
-  spinWheel(1, 2000, shuffledEngineers, finalize);
+  spinWheel(1, 1700, shuffledEngineers, finalize);
 }
 
 function finalize() {
@@ -70,16 +70,15 @@ $(document).ready(function() {
   });
 
   var engineers = [
-    'Mike B.', 
-    'Rich', 
-    'Greg', 
+    'Mike B.',
+    'Rich',
+    'Greg',
     'Garrick',
     'Mike P.',
     'Paul',
     'Joseph',
-    'Anton',
-    'Jon'
+    'Anton'
     ]
-    
+
   init(engineers);
 });
